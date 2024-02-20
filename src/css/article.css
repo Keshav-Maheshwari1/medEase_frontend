@@ -1,0 +1,42 @@
+.main-article-card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: center;
+}
+.articles-cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        background-color: gainsboro;
+        margin-bottom: 2%;
+        padding: 1%;
+}
+#search{
+        width: 600px;
+        height: 40px;
+        border-radius: 7px;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        
+        text-align: center;
+        color: rgb(90, 89, 89);
+        border: 2px solid rgba(232, 232, 232, 0.9); 
+        outline: 2px solid rgb(232, 232, 232); 
+        
+        
+}
+#search::placeholder{
+        font-size: 15px;
+}
+.main-article-headline{
+        text-align: center;
+}
+.main-article-input{
+        width: fit-content;
+        height: fit-content;
+        margin-left: 7.3%;
+}

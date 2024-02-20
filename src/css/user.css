@@ -1,0 +1,101 @@
+.main-user{
+        width: 98vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/002/528/816/non_2x/stethoscope-on-computer-keyboard-on-white-desk-online-health-care-or-telemedicine-concept-medical-background-top-view-copy-space-photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.main-login-entry{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-top: 15%;
+        width: 70%;
+}
+.main-login-entry input{
+        width: 100%;
+        height: 30px;
+        color: rgb(90, 89, 89);
+        border: 0 ; 
+        outline: 0; 
+}
+.main-user-service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        background-color: rgba(128, 128, 128, 0.459);
+        margin-left: 10%;
+        width: 35%;
+        height: 85%;
+}
+.move-to{
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+        margin-top: 10%;
+}
+
+.signin{
+        height: 30px;
+        border: 0px;
+        cursor: pointer;
+        background-color: #13bef0;
+        font-size: 15px;
+        margin-top: 10%;
+}
+#login-eye{
+        width: 40px;
+        height: 30px;
+        border: 0px;
+        position: absolute;
+        top:49%;
+        right: 34%;
+        background-color: white;
+}
+#login-eye img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+}
+
+.main-register-entry{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-top: 15%;
+        width: 70%;
+}
+.main-register-entry input{
+        width: 100%;
+        height: 30px;
+        color: rgb(90, 89, 89);
+        border: 0 ; 
+        outline: 0; 
+}
+#register-eye{
+        width: 40px;
+        height: 30px;
+        border: 0px;
+        position: absolute;
+        top:56.2%;
+        right: 34%;
+        background-color: white;
+}
+#register-eye img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        
+}
+.signup{
+        height: 30px;
+        border: 0px;
+        cursor: pointer;
+        background-color: #13bef0;
+        font-size: 15px;
+        margin-top: 10%;
+}
